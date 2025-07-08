@@ -1,0 +1,57 @@
+original_point_name,standard_tags,equipment_type,system_type,point_type,description
+AHU-1_SAT,dis:"AHU-1 Supply Air Temp" ahu supply air temp sensor point,ahu,hvac,sensor,Air handling unit supply air temperature
+AHU-1_RAT,dis:"AHU-1 Return Air Temp" ahu return air temp sensor point,ahu,hvac,sensor,Air handling unit return air temperature
+AHU-1_MAT,dis:"AHU-1 Mixed Air Temp" ahu mixed air temp sensor point,ahu,hvac,sensor,Air handling unit mixed air temperature
+AHU-1_SAP,dis:"AHU-1 Supply Air Pressure" ahu supply air pressure sensor point,ahu,hvac,sensor,Air handling unit supply air pressure
+AHU-1_RAF,dis:"AHU-1 Return Air Flow" ahu return air flow sensor point,ahu,hvac,sensor,Air handling unit return air flow
+AHU-1_SAF,dis:"AHU-1 Supply Air Flow" ahu supply air flow sensor point,ahu,hvac,sensor,Air handling unit supply air flow
+AHU-1_SFS,dis:"AHU-1 Supply Fan Status" ahu supply fan run sensor point,ahu,hvac,sensor,Air handling unit supply fan status
+AHU-1_SFC,dis:"AHU-1 Supply Fan Command" ahu supply fan run cmd point,ahu,hvac,cmd,Air handling unit supply fan command
+AHU-1_CC,dis:"AHU-1 Cooling Coil" ahu cool cmd point,ahu,hvac,cmd,Air handling unit cooling coil command
+AHU-1_HC,dis:"AHU-1 Heating Coil" ahu heat cmd point,ahu,hvac,cmd,Air handling unit heating coil command
+VAV-101_ZT,dis:"VAV-101 Zone Temp" vav zone air temp sensor point,vav,hvac,sensor,Variable air volume zone temperature
+VAV-101_ZTS,dis:"VAV-101 Zone Temp Setpoint" vav zone air temp sp point,vav,hvac,sp,Variable air volume zone temperature setpoint
+VAV-101_DPR,dis:"VAV-101 Damper Position" vav discharge damper cmd point,vav,hvac,cmd,Variable air volume damper position
+VAV-101_AF,dis:"VAV-101 Air Flow" vav discharge air flow sensor point,vav,hvac,sensor,Variable air volume air flow
+VAV-101_AFS,dis:"VAV-101 Air Flow Setpoint" vav discharge air flow sp point,vav,hvac,sp,Variable air volume air flow setpoint
+CH-1_CHWS,dis:"Chiller-1 CHW Supply Temp" chiller leaving chilled water temp sensor point,chiller,hvac,sensor,Chiller chilled water supply temperature
+CH-1_CHWR,dis:"Chiller-1 CHW Return Temp" chiller entering chilled water temp sensor point,chiller,hvac,sensor,Chiller chilled water return temperature
+CH-1_CHWR_FLOW,dis:"Chiller-1 CHW Flow" chiller chilled water flow sensor point,chiller,hvac,sensor,Chiller chilled water flow rate
+CH-1_POWER,dis:"Chiller-1 Power" chiller elec power sensor point,chiller,hvac,sensor,Chiller electrical power consumption
+CH-1_STATUS,dis:"Chiller-1 Status" chiller run sensor point,chiller,hvac,sensor,Chiller operational status
+CH-1_CMD,dis:"Chiller-1 Command" chiller run cmd point,chiller,hvac,cmd,Chiller start/stop command
+B-1_KW,dis:"Building-1 Power" site elec power sensor point,site,elec,sensor,Building electrical power consumption
+B-1_KWH,dis:"Building-1 Energy" site elec energy sensor point,site,elec,sensor,Building electrical energy consumption
+PUMP-1_STATUS,dis:"Pump-1 Status" pump run sensor point,pump,hvac,sensor,Pump operational status
+PUMP-1_CMD,dis:"Pump-1 Command" pump run cmd point,pump,hvac,cmd,Pump start/stop command
+PUMP-1_SPEED,dis:"Pump-1 Speed" pump speed sensor point,pump,hvac,sensor,Pump speed feedback
+PUMP-1_FREQ,dis:"Pump-1 Frequency" pump freq sensor point,pump,hvac,sensor,Pump frequency feedback
+OAT,dis:"Outside Air Temp" outside air temp sensor point,weather,hvac,sensor,Outside air temperature
+OAH,dis:"Outside Air Humidity" outside air humidity sensor point,weather,hvac,sensor,Outside air humidity
+OAP,dis:"Outside Air Pressure" outside air pressure sensor point,weather,hvac,sensor,Outside air pressure
+WS,dis:"Wind Speed" wind speed sensor point,weather,hvac,sensor,Wind speed
+WD,dis:"Wind Direction" wind direction sensor point,weather,hvac,sensor,Wind direction
+FCU-201_ZT,dis:"FCU-201 Zone Temp" fcu zone air temp sensor point,fcu,hvac,sensor,Fan coil unit zone temperature
+FCU-201_ZTS,dis:"FCU-201 Zone Temp Setpoint" fcu zone air temp sp point,fcu,hvac,sp,Fan coil unit zone temperature setpoint
+FCU-201_FS,dis:"FCU-201 Fan Status" fcu fan run sensor point,fcu,hvac,sensor,Fan coil unit fan status
+FCU-201_FC,dis:"FCU-201 Fan Command" fcu fan run cmd point,fcu,hvac,cmd,Fan coil unit fan command
+FCU-201_SPEED,dis:"FCU-201 Fan Speed" fcu fan speed cmd point,fcu,hvac,cmd,Fan coil unit fan speed
+BOILER-1_ST,dis:"Boiler-1 Supply Temp" boiler leaving hot water temp sensor point,boiler,hvac,sensor,Boiler hot water supply temperature
+BOILER-1_RT,dis:"Boiler-1 Return Temp" boiler entering hot water temp sensor point,boiler,hvac,sensor,Boiler hot water return temperature
+BOILER-1_PRESS,dis:"Boiler-1 Pressure" boiler pressure sensor point,boiler,hvac,sensor,Boiler pressure
+BOILER-1_STATUS,dis:"Boiler-1 Status" boiler run sensor point,boiler,hvac,sensor,Boiler operational status
+BOILER-1_CMD,dis:"Boiler-1 Command" boiler run cmd point,boiler,hvac,cmd,Boiler start/stop command
+CT-1_AT,dis:"Cooling Tower-1 Approach Temp" coolingTower approach temp sensor point,coolingTower,hvac,sensor,Cooling tower approach temperature
+CT-1_FS,dis:"Cooling Tower-1 Fan Status" coolingTower fan run sensor point,coolingTower,hvac,sensor,Cooling tower fan status
+CT-1_FC,dis:"Cooling Tower-1 Fan Command" coolingTower fan run cmd point,coolingTower,hvac,cmd,Cooling tower fan command
+ELEV-1_STATUS,dis:"Elevator-1 Status" elevator run sensor point,elevator,conveyance,sensor,Elevator operational status
+ELEV-1_POWER,dis:"Elevator-1 Power" elevator elec power sensor point,elevator,conveyance,sensor,Elevator electrical power consumption
+LIGHT-1_STATUS,dis:"Light-1 Status" light run sensor point,light,lighting,sensor,Light operational status
+LIGHT-1_CMD,dis:"Light-1 Command" light run cmd point,light,lighting,cmd,Light on/off command
+LIGHT-1_LEVEL,dis:"Light-1 Level" light level cmd point,light,lighting,cmd,Light dimming level
+HVAC-SCHED,dis:"HVAC Schedule" hvac schedule cmd point,schedule,hvac,cmd,HVAC system schedule
+OAHU-1_SAT,dis:"OAHU-1 Supply Air Temp" ahu supply air temp sensor point,ahu,hvac,sensor,Outdoor air handling unit supply air temperature
+OAHU-1_OAD,dis:"OAHU-1 Outside Air Damper" ahu outside damper cmd point,ahu,hvac,cmd,Outdoor air handling unit outside air damper
+UH-1_ZT,dis:"Unit Heater-1 Zone Temp" unitHeater zone air temp sensor point,unitHeater,hvac,sensor,Unit heater zone temperature
+UH-1_STATUS,dis:"Unit Heater-1 Status" unitHeater run sensor point,unitHeater,hvac,sensor,Unit heater operational status
+UH-1_CMD,dis:"Unit Heater-1 Command" unitHeater run cmd point,unitHeater,hvac,cmd,Unit heater start/stop command

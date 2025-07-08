@@ -1,0 +1,57 @@
+original_name,equipment_type,point_type,mapped_tags,confidence,method,debug_info
+AHU-1_SAT,ahu,sensor,ahu supply air temp sensor point,1.0,pattern_based,{'matched_patterns': True}
+AHU-1_RAT,ahu,sensor,ahu return air temp sensor point,1.0,pattern_based,{'matched_patterns': True}
+AHU-1_MAT,ahu,sensor,ahu mixed air temp sensor point,1.0,pattern_based,{'matched_patterns': True}
+AHU-1_SAP,ahu,sensor,ahu supply air pressure sensor point,1.0,pattern_based,{'matched_patterns': True}
+AHU-1_RAF,ahu,sensor,ahu return air flow sensor point,1.0,pattern_based,{'matched_patterns': True}
+AHU-1_SAF,ahu,sensor,ahu supply air flow sensor point,1.0,pattern_based,{'matched_patterns': True}
+AHU-1_SFS,ahu,sensor,ahu fan run sensor point,1.0,pattern_based,{'matched_patterns': True}
+AHU-1_SFC,ahu,sensor,ahu fan run cmd point,1.0,pattern_based,{'matched_patterns': True}
+AHU-1_CC,ahu,sensor,ahu cool cmd point,1.0,pattern_based,{'matched_patterns': True}
+AHU-1_HC,ahu,sensor,ahu heat cmd point,1.0,pattern_based,{'matched_patterns': True}
+VAV-101_ZT,vav,sensor,vav zone air temp sensor point,1.0,pattern_based,{'matched_patterns': True}
+VAV-101_ZTS,vav,sensor,vav zone air temp sensor point,1.0,pattern_based,{'matched_patterns': True}
+VAV-101_DPR,vav,sensor,vav discharge damper cmd point,0.75,pattern_based,{'matched_patterns': True}
+VAV-101_AF,vav,sensor,vav discharge air flow sensor point,1.0,pattern_based,{'matched_patterns': True}
+VAV-101_AFS,vav,sensor,vav discharge air flow sensor point,1.0,pattern_based,{'matched_patterns': True}
+CH-1_CHWS,chiller,sensor,chiller leaving chilled water temp sensor point,0.8333333333333333,pattern_based,{'matched_patterns': True}
+CH-1_CHWR,chiller,sensor,chiller entering chilled water temp sensor point,0.8333333333333333,pattern_based,{'matched_patterns': True}
+CH-1_CHWR_FLOW,chiller,sensor,chiller chilled water flow sensor point,1.0,pattern_based,{'matched_patterns': True}
+CH-1_POWER,chiller,sensor,chiller elec power sensor point,1.0,pattern_based,{'matched_patterns': True}
+CH-1_STATUS,chiller,sensor,chiller run sensor point,1.0,pattern_based,{'matched_patterns': True}
+CH-1_CMD,chiller,cmd,chiller run cmd point,1.0,pattern_based,{'matched_patterns': True}
+B-1_KW,meter,sensor,meter power water sensor point,0.6,concept_based,"{'concepts_used': ['water', 'power']}"
+B-1_KWH,meter,sensor,meter power water sensor point,0.6,concept_based,"{'concepts_used': ['water', 'power', 'energy']}"
+PUMP-1_STATUS,pump,sensor,pump run sensor point,1.0,pattern_based,{'matched_patterns': True}
+PUMP-1_CMD,pump,cmd,pump run cmd point,1.0,pattern_based,{'matched_patterns': True}
+PUMP-1_SPEED,pump,sp,pump speed sensor point,1.0,pattern_based,{'matched_patterns': True}
+PUMP-1_FREQ,pump,sensor,pump freq sensor point,1.0,pattern_based,{'matched_patterns': True}
+OAT,weather,sensor,outside air temp sensor point,1.0,pattern_based,{'matched_patterns': True}
+OAH,weather,sensor,outside air humidity sensor point,0.8333333333333333,pattern_based,{'matched_patterns': True}
+OAP,weather,sensor,outside air pressure sensor point,1.0,pattern_based,{'matched_patterns': True}
+WS,weather,sensor,weather water supply sensor point,0.5,concept_based,"{'concepts_used': ['status', 'water', 'supply', 'sensor']}"
+WD,weather,sensor,weather water sensor point,0.5,concept_based,{'concepts_used': ['water']}
+FCU-201_ZT,fcu,sensor,fcu temp zone sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'flow', 'command', 'zone', 'fan']}"
+FCU-201_ZTS,fcu,sensor,fcu temp supply sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'flow', 'command', 'status', 'supply', 'zone', 'fan', 'sensor']}"
+FCU-201_FS,fcu,sensor,fcu flow supply sensor point,0.6,concept_based,"{'concepts_used': ['flow', 'command', 'status', 'supply', 'fan', 'sensor']}"
+FCU-201_FC,fcu,sensor,fcu flow sensor point,0.6,concept_based,"{'concepts_used': ['flow', 'command', 'fan']}"
+FCU-201_SPEED,fcu,sp,fcu pressure supply sp point,0.6,concept_based,"{'concepts_used': ['pressure', 'flow', 'command', 'status', 'setpoint', 'supply', 'fan', 'sensor', 'speed']}"
+BOILER-1_ST,boiler,sensor,boiler temp supply sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'status', 'supply', 'return', 'sensor']}"
+BOILER-1_RT,boiler,sensor,boiler temp return sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'return']}"
+BOILER-1_PRESS,boiler,sensor,boiler pressure supply sensor point,0.6,concept_based,"{'concepts_used': ['pressure', 'status', 'supply', 'return', 'sensor']}"
+BOILER-1_STATUS,boiler,sensor,boiler temp air supply sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'status', 'air', 'supply', 'return', 'sensor']}"
+BOILER-1_CMD,boiler,cmd,boiler return cmd point,0.5,concept_based,"{'concepts_used': ['command', 'return', 'mixed']}"
+CT-1_AT,coolingTower,sensor,coolingTower temp air sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'command', 'air']}"
+CT-1_FS,coolingTower,sensor,coolingTower temp supply sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'flow', 'command', 'status', 'supply', 'fan', 'sensor']}"
+CT-1_FC,coolingTower,sensor,coolingTower temp sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'flow', 'command', 'fan']}"
+ELEV-1_STATUS,elevator,sensor,elevator temp air supply sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'status', 'air', 'supply', 'valve', 'sensor']}"
+ELEV-1_POWER,elevator,sensor,elevator pressure water return sensor point,0.6,concept_based,"{'concepts_used': ['pressure', 'water', 'return', 'valve', 'power']}"
+LIGHT-1_STATUS,light,sensor,light temp air supply sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'status', 'air', 'supply', 'sensor']}"
+LIGHT-1_CMD,light,cmd,light temp cmd point,0.6,concept_based,"{'concepts_used': ['temp', 'command', 'mixed']}"
+LIGHT-1_LEVEL,light,sensor,light temp sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'valve', 'level']}"
+HVAC-SCHED,chiller,sensor,chiller air supply sensor point,0.5,concept_based,"{'concepts_used': ['command', 'status', 'air', 'supply', 'valve', 'sensor']}"
+OAHU-1_SAT,ahu,sensor,ahu supply air temp sensor point,1.0,pattern_based,{'matched_patterns': True}
+OAHU-1_OAD,ahu,sensor,ahu air outside sensor point,0.5,concept_based,"{'concepts_used': ['air', 'outside']}"
+UH-1_ZT,unitHeater,sensor,unitHeater temp zone sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'zone']}"
+UH-1_STATUS,unitHeater,sensor,unitHeater temp air supply sensor point,0.6,concept_based,"{'concepts_used': ['temp', 'status', 'air', 'supply', 'sensor']}"
+UH-1_CMD,unitHeater,cmd,unitHeater cmd point,0.5,concept_based,"{'concepts_used': ['command', 'mixed']}"
